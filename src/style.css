@@ -1,0 +1,31 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8ff;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  color: black;
+  transition: color 0.5s ease;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.instructions {
+  text-align: left;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+
+p,
+ol {
+  font-size: 18px;
+}

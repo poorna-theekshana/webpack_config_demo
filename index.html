@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Webpack Demo</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="titleText">Interactive Webpack Demo</h1>
+      <p>Follow these updated instructions:</p>
+      <ul id="instructions">
+        <li>
+          Change the background color and text alignment in
+          <strong>src/style.css</strong>.
+        </li>
+        <li>Click the button below to dynamically change the text color.</li>
+        <li>Click the other button to increment the counter below.</li>
+      </ul>
+
+      <!-- Button to change the text color dynamically -->
+      <button id="colorChangeBtn" class="btn btn-primary">
+        Change Text Color
+      </button>
+
+      <!-- Counter -->
+      <div class="mt-3">
+        <p>Click the button to increment the counter:</p>
+        <button id="incrementBtn" class="btn btn-secondary">
+          Increment Counter
+        </button>
+        <p>Counter: <span id="counter">0</span></p>
+      </div>
+    </div>
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>
